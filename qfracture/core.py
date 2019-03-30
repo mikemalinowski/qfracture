@@ -626,5 +626,5 @@ try:
     loader = qute.QtUiTools.QUiLoader()
     loader.registerCustomWidget(browser.FractureListWidget)
 
-except StandardError:
+except Exception:
     pass
